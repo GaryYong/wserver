@@ -1,0 +1,14 @@
+{
+  "require": {
+      "monolog/monolog": "1.24.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "bin\\":"bin/",
+      "factory\\":"factory/",
+      "library\\":"library/",
+      "library\\servers\\":"library/servers/",
+      "Vendor\\Namespace\\": "wserver"
+    }
+  }
+}
